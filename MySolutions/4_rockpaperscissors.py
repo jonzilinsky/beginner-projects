@@ -11,7 +11,7 @@ def score():
   return f'[Human Score: {humanscore} Computer Score: {cpuscore}]'
 
 def play(z):
-  global humanscore, cpuscore, score
+  global humanscore, cpuscore
   cpu = random.choice(options)
   print(f'Computer chooses: {ddict[cpu]} ', end='')
   if z == cpu:
